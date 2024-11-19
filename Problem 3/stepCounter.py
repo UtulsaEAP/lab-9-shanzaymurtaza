@@ -1,10 +1,8 @@
 def feet_to_steps(user_feet):
-   #write your code here
-   return
+   feet_per_step = 2.5
+   return user_feet / feet_per_step
 
 if __name__ == '__main__':
-    #take input feet steps here
-    #store it into the function
+    user_feet=float(input("Enter feet:"))
+    print(f'Steps: {feet_to_steps(user_feet):.2f}')
     
-    #print your steps here
-    feet_to_steps(5280)
