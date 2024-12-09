@@ -1,4 +1,6 @@
 def int_to_reverse_binary(num1):
+    if num1 == 0:
+        return '0'
     binary_val = ''
     while num1 > 0:
         binary_val += str(num1 % 2)
